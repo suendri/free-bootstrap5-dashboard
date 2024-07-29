@@ -1,14 +1,22 @@
+/*!
+ * Dashboard Style
+ * (https://github.com/codzsword/bootstrap-admin-dashboard)
+ */
+
 :root,
 [data-bs-theme=light] {
     --bs-body-font-family: "Rubik", sans-serif;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-app-sidebar-bg: #1c43c2;
+    --bs-app-sidebar-bg: rgb(28, 67, 194);
 }
 
 [data-bs-theme=dark] {
-    --bs-app-sidebar-bg: #212529;
+    --bs-app-sidebar-bg: rgb(33, 37, 41);
+    --bs-app-card-border-color: rgba(255, 255, 255, 0.15);
+    --bs-app-card-border-color: rgba(227, 230, 240, 1);
+    --bs-app-card-border-radius: 0.35rem;
 }
 
 *,
@@ -107,18 +115,13 @@ a.sidebar-link {
 }
 
 .avatar {
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
 }
 
 .navbar-expand .navbar-nav {
     margin-left: auto;
-}
-
-#toggletheme {
-    height: 40px;
-    width: 40px;
-    font-size: 18px;
+    gap: 10px;
 }
 
 .content {
