@@ -89,6 +89,15 @@ a {
     padding: 1.15rem 1.15rem .375rem;
 }
 
+.sidebar-item .sidebar-link:hover {
+    color: #ffffff;
+}
+
+.sidebar-item .sidebar-link.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
 a.sidebar-link {
     padding: .625rem 1.15rem;
     color: #e9ecef;
