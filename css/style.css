@@ -1,6 +1,6 @@
 /*!
  * Dashboard Style
- * (https://github.com/codzsword/bootstrap-admin-dashboard)
+ * Inspiration (https://github.com/codzsword/bootstrap-admin-dashboard)
  */
 
 :root,
@@ -176,9 +176,9 @@ a.sidebar-link {
 
 /** Bootstrap Icon custom */
 
-.bi::before,
-[class^="bi-"]::before,
-[class*=" bi-"]::before {
+.sidebar-item .bi::before,
+.sidebar-item[class^="bi-"]::before,
+.sidebar-item[class*=" bi-"]::before {
     font-size: 1.2rem;
     vertical-align: -0.2rem;
     fill: currentColor;
