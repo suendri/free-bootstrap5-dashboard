@@ -1,6 +1,6 @@
 ## Free Bootstrap 5 Dashboard Nice Sidebar Responsive Dark Mode Support
 
-Simple Free Bootstrap 5.3 Dashboard Nice Sidebar Responsive Dark Mode Support
+Simple Free Bootstrap 5.3.3 Dashboard Nice Sidebar Responsive Dark Mode Support
 
 ## Inspiration
 * [codzsword](https://github.com/codzsword/bootstrap-admin-dashboard)
